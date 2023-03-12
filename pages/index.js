@@ -11,10 +11,16 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <Header title="" />
+       <style>
+	.office-banner img {
+    width: 100%;
+    height: auto;
+}
+body {
+    background-color: #000 !important;
+}
+</style>
       </main>
 
       <Footer />
