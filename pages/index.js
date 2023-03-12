@@ -12,7 +12,12 @@ export default function Home() {
 
       <main>
         <Header title="" />
-       <style>
+<html>
+<body>
+<div class="office-banner">
+<img src="office panel with logo.png">
+</div>
+<style>
 	.office-banner img {
     width: 100%;
     height: auto;
@@ -21,6 +26,8 @@ body {
     background-color: #000 !important;
 }
 </style>
+</body>
+</html>
       </main>
 
       <Footer />
